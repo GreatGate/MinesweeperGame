@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		857BBCD51D2F7C4000C461C0 /* Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 857BBCD41D2F7C4000C461C0 /* Demo.m */; };
 		85BD255F1CC0C7F800F3BA5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BD255E1CC0C7F800F3BA5A /* main.m */; };
 		85BD25621CC0C7F800F3BA5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BD25611CC0C7F800F3BA5A /* AppDelegate.m */; };
 		85BD25651CC0C7F900F3BA5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BD25641CC0C7F900F3BA5A /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		857BBCD31D2F7C4000C461C0 /* Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		857BBCD41D2F7C4000C461C0 /* Demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo.m; sourceTree = "<group>"; };
 		85BD255A1CC0C7F800F3BA5A /* MinesweeperGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinesweeperGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85BD255E1CC0C7F800F3BA5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85BD25601CC0C7F800F3BA5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				85BD25641CC0C7F900F3BA5A /* ViewController.m */,
 				85CAC1921CC875F400D77367 /* LevelModel.h */,
 				85CAC1931CC875F400D77367 /* LevelModel.m */,
+				857BBCD31D2F7C4000C461C0 /* Demo.h */,
+				857BBCD41D2F7C4000C461C0 /* Demo.m */,
 				85BD25661CC0C7F900F3BA5A /* Main.storyboard */,
 				85BD25691CC0C7F900F3BA5A /* Assets.xcassets */,
 				85BD256B1CC0C7F900F3BA5A /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857BBCD51D2F7C4000C461C0 /* Demo.m in Sources */,
 				85CAC1941CC875F400D77367 /* LevelModel.m in Sources */,
 				85BD25651CC0C7F900F3BA5A /* ViewController.m in Sources */,
 				85BD25621CC0C7F800F3BA5A /* AppDelegate.m in Sources */,
